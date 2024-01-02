@@ -190,6 +190,7 @@ p {
       background-color: #14192d;
       color: #ccc;
       padding-bottom: 1rem;
+      margin-top: 10px;
     }
   
     .new-title {
@@ -208,14 +209,11 @@ p {
       font-size: 1.4rem;
     }
   
-    .card-container {
+    .card {
       padding: .2rem;
       margin-top: .5rem;
     }
-  
-    .contenedor-img-texto {
-      display: flex;
-    }
+
   
     .contenedor-texto {
       padding: .5rem;
@@ -238,16 +236,16 @@ p {
       font-size: 1.1rem;
     }
   
-    .contenedor-tarjetas-2>.posicion,
+    .posicion,
     .titulo-tarjeta,
     .parrafo-tarjeta {
-      margin-top: .3rem;
+      margin-top: 1rem;
       margin-left: .6rem;
     }
   
     .contenedor-img-2 {
       width: 148px;
-      ;
+      margin-top: 2rem;
     }
   
     .attribution {
@@ -272,8 +270,21 @@ p {
     padding: 5rem;
   }
 
+  .menu-btn {
+    display: none;
+  }
+
  .menu.is-active a {
     font-size: 3rem;
+  }
+
+  .menu {
+    opacity: 1;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    margin-left: 217px;
+    margin-top: -70px;
   }
 
   .imagen {
@@ -337,7 +348,7 @@ p {
     flex-direction: row;
     position: static;
     width: 100%;
-    margin-left: 630px;
+    margin-left: 840px;
     margin-top: -55px;
   }
   
@@ -346,24 +357,26 @@ p {
   }
 
   .imagen {
-    width: 800px;
+    width: 1000px;
   }
 
   .new-box{
-    margin-top: -680px;
-    margin-left: 820px;
-    height: 85vh;
-    width: 450px;
+   position: absolute;
+   left: 510px;
+   top: 987px;
+   height: 750px;
+   width: 490px;
   }
 
   .box {
     display: flex;
     width: 799px;
     height: 150px;
+    margin-top: 150px;
   }
 
   .contenedor-img img {
-    width: 790px;
+    width: 960px;
     height: 400px;
     margin-left: 10px;
   }
@@ -394,15 +407,30 @@ p {
     margin-left: 240px;
   }
 
-  .card-container {
-    display: flex;
+
+  
+  .posicion, 
+  .titulo-tarjeta, 
+  .parrafo-tarjeta {
+    width: 300px;
+    margin-top: 1rem;
   }
 
-  .contenedor-texto-2 {
-    margin-top: 15px;
+
+  .img-tarjeta {
+    width: 80vw;
+  
   }
+  .card {
+    margin-top: 100px;
+    display: flex;
+    height: 300px;
+    margin-left: 90px;
+   }
+
+   
 
   .attribution {
-    margin-top: 1rem;
+    margin-top: 15rem;
   }
 }
